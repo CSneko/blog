@@ -1,2 +1,4 @@
 page/node_modules/
 page/public/
+page/package-lock.json
+page/yarn.lock
