@@ -404,7 +404,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: # Valine,Disqus
+  use: disqusjs,gitalk
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -422,8 +422,8 @@ disqus:
 # DisqusJS 評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
-  shortname:
-  apikey:
+  shortname: 'blog-hab8jo8wzr.disqus.com'
+  apikey: N8CJBkilOWxIErsMWmicjHwYvkwQwH6g4pKDCJ97zerMh1hzn0zwQPOM5SUkSsyF
   option:
 
 # livere (來必力)
@@ -434,11 +434,11 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
+  client_id: bec05e9ff53de035ed39
+  client_secret: ff22af590a8a12e54383d9618ec07cffe93fbf89
+  repo: blog
+  owner: csneko
+  admin: csneko
   option:
 
 # valine
