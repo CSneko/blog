@@ -482,8 +482,8 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: comment.blog.cneko.org
-  region: 
+  envId: https://comment.blog.cneko.org
+  # region: 
   visitor: true
   option:
 
