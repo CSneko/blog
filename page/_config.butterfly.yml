@@ -779,9 +779,9 @@ preloader:
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
   enable: true
-  post_wordcount: true
-  min2read: false
-  total_wordcount: true
+  post_wordcount: false
+  min2read: true
+  total_wordcount: false
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
