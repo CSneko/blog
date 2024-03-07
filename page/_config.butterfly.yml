@@ -737,8 +737,8 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
-blog_title_font: CrystalNekoの博客
-  font_link: https://blog.cneko.org
+blog_title_font: 
+  font_link: 
   font-family:
 
 # The setting of divider icon (水平分隔線圖標設置)
