@@ -1,7 +1,7 @@
 ---
 title: 实体使用自定义nbt[Minecraft模组开发]
 date: 2024-03-09 19:28:47
-tags: Minecraft,NBT,Java,Fabric
+tags: [Minecraft,NBT,Java,Fabric]
 ---
 ## 前言
 ### 什么是NBT
