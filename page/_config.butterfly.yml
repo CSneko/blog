@@ -780,8 +780,8 @@ preloader:
 wordcount:
   enable: true
   post_wordcount: true
-  min2read: false
-  total_wordcount: false
+  min2read: true
+  total_wordcount: true
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
