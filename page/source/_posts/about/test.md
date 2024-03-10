@@ -41,6 +41,6 @@ tags: test
 
     // 动态创建script元素加载外部脚本
     var script = document.createElement("script");
-    script.src = "https://wwww.crystalneko.online/k/k/autoload.js"; //请将这里的链接换成你自己的链接
+    script.src = "https://w.crystalneko.online/k/k/autoload.js"; //请将这里的链接换成你自己的链接
     document.head.appendChild(script);
 </script>
