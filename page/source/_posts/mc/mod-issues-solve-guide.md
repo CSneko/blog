@@ -18,18 +18,18 @@ tags: [Minecraft,模组]
 
 ### CurseForge
 首先，你需要在模组页面中找到`Files`选项，如下图所示：
-![img](images/mod-issues-solve-guide/curseforge-mod.png)
+![img](assets/images/mc/mod-issues-solve-guide/curseforge-mod.png)
 
 选择你需要的Minecraft版本，模组加载器（这个后面会讲），在下图的版本列表中选择最新版本即可：
-![img](images/mod-issues-solve-guide/curseforge-files.png)
+![img](assets/images/mc/mod-issues-solve-guide/curseforge-files.png)
 
 在新弹出的页面中，你只需要点击`Download`并等待一会而后即可下载该模组。
 ### Modrinth
 同样的，你需要打开版本列表：
-![img](images/mod-issues-solve-guide/modrinth-mod.png)
+![img](assets/images/mc/mod-issues-solve-guide/modrinth-mod.png)
 
 与CurseForge一样，选择你需要的Minecraft版本，模组加载器，并选择最新版本即可：
-![img](images/mod-issues-solve-guide/modrinth-files.png)
+![img](assets/images/mc/mod-issues-solve-guide/modrinth-files.png)
 
 在新弹出的页面中，你只需要点击`Download`就可以直接下载该模组。
 ### Github
@@ -38,10 +38,10 @@ Github与CurseForge和Modrinth相比有所不同，因为并非所有的作者�
 **注意：**Github在国内访问体验可能较差
 
 首先，你需要在模组页面中找到`Releases`选项，如下图所示：
-![img](images/mod-issues-solve-guide/github-mod.png)
+![img](assets/images/mc/mod-issues-solve-guide/github-mod.png)
 
 然后直接下载jar文件即可：
-![img](images/mod-issues-solve-guide/github-files.png)
+![img](assets/images/mc/mod-issues-solve-guide/github-files.png)
 
 ## 模组安装
 ### 模组加载器
@@ -52,11 +52,11 @@ Minecraft目前有四个模组加载器，分别为Fabric，Quilt，Forge，NeoF
 
 ### 前置模组
 部分模组可能需要前置模组，请一并下载安装，通常情况下CurseForge和Modrinth会说明需要的前置模组（如下图）。
-![img](images/mod-issues-solve-guide/modrinth-depends.png)
+![img](assets/images/mc/mod-issues-solve-guide/modrinth-depends.png)
 
 ### 启动报错
 如果你在启动时遇到了类似下图的页面，请按照指示去解决问题（如下图是缺少前置模组geckolib）：
-![img](images/mod-issues-solve-guide/mod-need-depend.png)
+![img](assets/images/mc/mod-issues-solve-guide/mod-need-depend.png)
 
 ## 报告问题
 ### 确定是否应该报告问题
