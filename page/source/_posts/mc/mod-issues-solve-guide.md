@@ -63,6 +63,8 @@ Minecraft目前有四个主流模组加载器，分别为Fabric，Quilt，Forge�
 ![img](assets/images/mc/mod-issues-solve-guide/mod-need-depend.png)
 
 ## 报告问题
+在提问之前，我推荐你先看看[提问的智慧](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)，它会详细告诉你该如何提问，这里我只做一个简单的解释。
+
 ### 报道问题之前应该做的
 在报道问题之前，你需要先去做一些准备工作，最大可能地减少模组作者的工作量，以下是需要做的事情：
 - 确定该问题没有被报道过
@@ -92,8 +94,20 @@ Minecraft目前有四个主流模组加载器，分别为Fabric，Quilt，Forge�
 - 日志文件
 - 游戏内截图
 
+#### 正确示例
+标题：模组在Fabric无法启用聊天修改
+
+JDK版本：Openjdk17 ；系统：Ubuntu 22.04 ；Minecraft版本1.20.4 ；模组版本：0.3.3 ；加载器：Fabric
+
+已安装的模组：geckolib 4.2.2，toneko 0.3.3，Fabric API 0.96.4，ctlib 0.1.0
+
+问题描述：在`游戏目录/ctlib/toneko/config.yml`将`chat.enable`设置为true后导致游戏崩溃，重新设置为fasle即可解决。
+
+崩溃日志：[日志链接]()
+
 ### 如何提供日志文件
-日志文件对于排查错误来说非常重要，即使你不会看日志，但是模组的开发者是需要通过它来排查问题的
-> “在没有错误日志的情况下诊断任何问题无异于闭眼开车”    ---apache httpd 用户入门文档
+日志文件对于排查错误来说非常重要，即使你不会看日志，但是模组的开发者需要通过它来排查问题。
+> “在没有错误日志的情况下诊断任何问题无异于闭眼开车”  
+   ---apache httpd 用户入门文档
 
 你可以在`游戏目录/logs/latest.log`中找到最近一次的日志文件，这是你需要提供的文件。
