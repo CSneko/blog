@@ -58,6 +58,8 @@ Minecraft目前有四个主流模组加载器，分别为Fabric，Quilt，Forge�
 部分模组可能需要前置模组，请一并下载安装，通常情况下CurseForge和Modrinth会说明需要的前置模组（如下图）。
 ![img](assets/images/mc/mod-issues-solve-guide/modrinth-depends.png)
 
+## 错误排查
+通常情况下，很多问题你完全可以自己解决
 ### 启动报错
 如果你在启动时遇到了类似下图的页面，请按照指示去解决问题（如下图是缺少前置模组geckolib）：
 ![img](assets/images/mc/mod-issues-solve-guide/mod-need-depend.png)
@@ -104,6 +106,14 @@ JDK版本：Openjdk17 ；系统：Ubuntu 22.04 ；Minecraft版本1.20.4 ；模�
 问题描述：在`游戏目录/ctlib/toneko/config.yml`将`chat.enable`设置为true后导致游戏崩溃，重新设置为fasle即可解决。
 
 崩溃日志：[日志链接]()
+
+#### 错误示例
+- 为什么模组会崩溃啊
+- 模组在哪里下载啊
+- 怎么安装模组啊
+- 为什么模组安装上没用啊
+- 为什么会卡在加载页面啊
+- 这是怎么回事（启动器截图）
 
 ### 如何提供日志文件
 日志文件对于排查错误来说非常重要，即使你不会看日志，但是模组的开发者需要通过它来排查问题。
