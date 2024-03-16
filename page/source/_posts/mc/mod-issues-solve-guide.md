@@ -47,7 +47,7 @@ Github与CurseForge和Modrinth相比有所不同，因为并非所有的作者�
 ### 模组加载器
 Minecraft目前有四个主流模组加载器，分别为Fabric，Quilt，Forge，NeoForge，在下载模组的时候一定要选择正确的模组加载器，否则模组将无法正常运行。
 
-不同加载器能运行的模组不同，其中，NeoForge兼容大部分Forge模组，Quilt兼容大部分Fabric模组，Forge/NeoForge与Fabric/Quilt互不兼容。
+不同加载器能运行的模组不同，其中，NeoForge兼容小部分Forge模组，Quilt兼容大部分Fabric模组，Forge/NeoForge与Fabric/Quilt互不兼容。
 
 **注意：即使部分模组加载器之间的模组可以互相兼容，但这并不意味着完全兼容，在出现问题时请使用正确的加载器**
 
@@ -59,7 +59,11 @@ Minecraft目前有四个主流模组加载器，分别为Fabric，Quilt，Forge�
 ![img](assets/images/mc/mod-issues-solve-guide/modrinth-depends.png)
 
 ## 错误排查
-通常情况下，很多问题你完全可以自己解决。
+通常情况下，很多问题是你自己导致的，与模组无关。
+
+即使这些问题可能不是由于你导致的，但是你也应该尝试去解决该问题，这可以减少作者的工作量。
+
+**不要觉得排查错误会消耗你大量的时间，作者的时间比你更宝贵**
 
 ### 启动报错
 如果你在启动时遇到了类似下图的页面，只需按照指示去解决问题，看不懂英文可以使用翻译软件（如下图是缺少前置模组geckolib）：
@@ -85,7 +89,7 @@ Minecraft目前有四个主流模组加载器，分别为Fabric，Quilt，Forge�
 如果你使用的是Fabric/Quilt，建议在使用之前检查是否已经安装或是否为最新版本的Fabric API/QSL。
 
 ## 报告问题
-在提问之前，我推荐你先看看[提问的智慧](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)，它会详细告诉你该如何提问，这里我只做一个简单的解释。
+在提问之前，我推荐你先看看[《提问的智慧》](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)，它会详细告诉你该如何提问，这里我只做一个简单的解释。
 
 ### 报道问题之前应该做的
 在报道问题之前，你需要先去做一些准备工作，最大可能地减少模组作者的工作量，以下是需要做的事情：
@@ -140,7 +144,7 @@ JDK版本：Openjdk17 ；系统：Ubuntu 22.04 ；Minecraft版本1.20.4 ；模�
 ### 如何提供日志文件
 日志文件对于排查错误来说非常重要，即使你不会看日志，但是模组的开发者需要通过它来排查问题。
 > “在没有错误日志的情况下诊断任何问题无异于闭眼开车”  
-   ---apache httpd 用户入门文档
+\t ---apache httpd 用户入门文档
 
 你可以在`游戏目录/logs/latest.log`中找到最近一次的日志文件，这是你需要提供的文件。
 
