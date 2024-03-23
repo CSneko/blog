@@ -912,7 +912,9 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-  bottom:
+  bottom:  <a href="https://icp.gov.moe/?keyword=20247031" target="_blank">萌ICP备20247031号</a>
+
+
     # - <script src="xxxx"></script>
 
 # CDN
