@@ -1,7 +1,7 @@
 ---
 title: 使用Modrinth Maven[Minecraft模组开发]
 date: 2024-03-28 22:19:29
-tags: [Minecraft,Java,模组]
+tags: [Minecraft,Java,模组,Maven]
 ---
 ## 前言
 在开发模组的过程中有时候会使用其它模组作为依赖项，但并非所有模组都提供了Maven仓库，因此可以使用Modrinth的Maven仓库来获取模组依赖。

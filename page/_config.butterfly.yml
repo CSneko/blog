@@ -97,7 +97,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: 'Page Not Found'
+  subtitle: '你访问的页面好像不存在呢(┙>∧<)┙へ┻┻'
   background: https://www.loliapi.com/bg/
 
 post_meta:
