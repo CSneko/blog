@@ -15,7 +15,7 @@ yoyo~ 已经是深夜啦，为啥我还要写文章，我自己也不知道为�
 既然要用这个API，那么第一步肯定是先添加依赖啦
 
 把下面的代码添加到你的`build.gradle`的`dependencies`块就可以啦
-```groovy```
+```groovy
 include modApi('teamreborn:energy:3.0.0') {
     exclude(group: "net.fabricmc.fabric-api")
 }
@@ -30,7 +30,7 @@ include modApi('teamreborn:energy:3.0.0') {
 怎么添加物品我相信大家应该都会的，这里我就不多说了，不会的话可以去看看[Fabric Wiki:添加物品](https://fabricmc.net/wiki/zh_cn:tutorial:items)
 
 接下来就来为它实现能源接口，首先让你的物品类实现`SimpleEnergyItem`这个接口，然后它会要求我们重写以下三个方法
-```java```
+```java
 /**
 物品的能源最大存储量，应该能理解吧
 这里的话我给它设置的是10000E　（单位你随便，为了方便我以后都叫它E）
@@ -60,7 +60,7 @@ public long getEnergyMaxOutput(ItemStack stack) {
 很多模组显示能量的方式都是通过物品提示和耐久度来显示的，不过我只做过第一个，所以呢暂时就不说第二个啦
 
 首先，你要在物品类中重写这个方法
-```java```
+```java
 @Override
 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
 // 获取电量
@@ -76,7 +76,7 @@ tooltip.add(Text.of(`${amount} / ${max} E`));
 像这样做之后，你的物品提示（你也可以叫它物品描述）就会显示当前电量啦
 ## 使用能量
 既然有能量了，那肯定要让它有用武之地（电池除外），比如说可以在执行某个操作时消耗能量，这里我就假设每一个tick都消耗2E的能量，可以看看下面的代码
-```java```
+```java
 @Override
 public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
     super.inventoryTick(stack, world, entity, slot, selected);
@@ -90,6 +90,8 @@ public void inventoryTick(ItemStack stack, World world, Entity entity, int slot,
 上面这串代码就会在每tick都消耗2E的能量，当然你也可以在其它地方消耗能量，但是我上面提供的代码是简化版本，你可能需要做的更为复杂，其实这个if语句是可以不要的，你可以使用`this.tryUseEnergy`（应该是这个方法吧，我忘记方法名了（☍﹏⁰。）），它会返回boolean，如果为true代表成功消耗了能量，这时候就可以去执行一些要做的事啦~
 ## 最后我想说的
 这篇文章其实有些地方不够详细，大家可以自己探索下（毕竟我了解的就这么多嘛（＝ｍ＝））
+
+有点尴尬，第一次上传的时候发现markdown都没写对（〒︿〒）
 
 最后祝大家代码不出Bugヽ（＝＾･ω･＾＝）丿
 
