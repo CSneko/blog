@@ -1,5 +1,5 @@
 ---
-title: mc/movie.md
+title: 关于MC大电影的一些感受
 date: 2025-04-05 01:38:29
 tags: [Minecraft,大电影]
 ---
