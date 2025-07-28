@@ -1,6 +1,6 @@
 ---
 title: JustARod安装及使用教程
-date: 2025-0728 22:16:58
+date: 2025-07-28 22:16:58
 tags: [Minecraft,Fabric,JustARod,教程]
 ---
 # 末地烛模组安装及使用教程
